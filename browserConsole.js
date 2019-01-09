@@ -9,7 +9,8 @@ import logErrorToService from './logErrorToService';
 import debounce from 'lodash/debounce';
 
 const config = {
-    logLevel: 'error'
+    logLevel: 'error',
+    errorInterval: 2 //in seconds
 }
 
 const errors = [];
